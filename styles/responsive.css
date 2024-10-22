@@ -32,4 +32,8 @@
  .card-container {
     flex-direction: column;
  }
+ .run-container{
+    flex-direction: column;
+    gap: 32px;
+ }
 }
