@@ -84,7 +84,7 @@ background: #E6533C;
 
 .banner-section {
     margin-top: 100px;
-    border: 1px solid red;
+  
 }
 .banner {
     gap: 160px;
@@ -161,8 +161,125 @@ background: rgba(255, 255, 255, 0.10);
 backdrop-filter: blur(10px);
 padding: 14px 24px;
 }
+.workout h1 {
+    color: #FFF;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 40px; 
+letter-spacing: 1px;
+}
+.workout p {
+    color: rgba(255, 255, 255, 0.65);
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 153.846% */
+letter-spacing: 1px;
+}
 .group {
+    justify-content: center;
+    align-items: center;
+    gap:15px;
     position: absolute;
-    top:200px;
+    top:380px;
+    left: -100px;
+    border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(48, 48, 48, 0.54);
+backdrop-filter: blur(10px);
+padding: 15px;
 
+}
+.circle {
+    border: 10px solid #E6533C;
+    width: 4px;
+height: 10px;
+border-radius: 50%;
+}
+.group h1 {
+    color: var(--Text-1, #FAFAF9);
+
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 24px; /* 100% */
+letter-spacing: 0.3px;
+
+}
+.group p {
+    color: var(--Text-2, rgba(239, 237, 232, 0.65));
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.5px;
+}
+
+/* main section start  */
+main {
+    
+    background: #000;
+   
+
+}
+.habit {
+  
+    text-align: center;
+    padding-top: 100px;
+}
+.habit-title h1 {
+    color: #FFF;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; /* 57.6px */
+margin-bottom: 10px;
+}
+.habit-title p {
+    color: rgba(255, 255, 255, 0.50);
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.3px;
+}
+
+/* card section  */
+.card-container {
+    gap: 40px;
+    margin-top: 40px;
+}
+.card {
+  
+    text-align: center;
+    padding: 5px;
+}
+.card img {
+    border-radius: 50%;
+}
+.card h3 {
+    color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 21.6px */
+margin-bottom: 5px;
+margin-top: 30px;
+
+}
+.card p {
+    color: rgba(255, 255, 255, 0.50);
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: 0.3px;
 }
