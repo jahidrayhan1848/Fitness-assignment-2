@@ -36,4 +36,8 @@
     flex-direction: column;
     gap: 32px;
  }
+ .bmi-calculate-container{
+    flex-direction: column;
+ 
+ }
 }
