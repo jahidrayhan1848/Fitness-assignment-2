@@ -8,5 +8,10 @@
     .nav {
         display: none;
     }
+    .banner {
+        flex-direction: column;
+        padding: 20px;
+    }
+   
     
  }
