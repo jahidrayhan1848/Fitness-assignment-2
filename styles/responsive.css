@@ -1,0 +1,12 @@
+ /* mobile device resonsive  */
+
+ @media screen  and (max-width:576px) {
+    .humburger {
+        display:block;
+        color: white;
+    }
+    .nav {
+        display: none;
+    }
+    
+ }
