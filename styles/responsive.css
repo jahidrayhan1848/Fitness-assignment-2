@@ -45,4 +45,18 @@
     padding: 20px;
 
  }
+ .input-field {
+    padding: 10px;
+ }
+ .bmi-title {
+    text-align: center;
+   margin-bottom: 50px;
+  margin-left: 0px;
+  }
+  .trainer-container {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    padding: 10px;
+  }
 }
