@@ -40,17 +40,9 @@
     flex-direction: column;
  }
  .bmi-table {
-    
-    width: 100%;
-    padding: 20px;
-}
-.bmi-input {
    
     width: 100%;
-     padding: 20px;
-  }
-  .field input {
-    width: 95px;
-  }
+    padding: 20px;
 
  }
+}
