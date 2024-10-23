@@ -549,3 +549,32 @@ line-height: 120%;
 .fit-2 ul >li {
     margin-bottom: 20px;
 }
+/* medicine section style  */
+.medicine-section {
+ 
+    margin-top: 55px;
+}
+.new {
+    text-align: center;
+    color: #FFF;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; /* 57.6px */
+}
+.product-container {
+    margin-top: 40px;
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+   border-radius: 18px;
+background: rgba(255, 255, 255, 0.10);
+}
+.product-img img {
+    width: 100%;
+    border-radius: 18px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
