@@ -90,7 +90,7 @@ background: #E6533C;
 /* banner section  */
 
 .banner-section {
-    margin-top: 100px;
+    margin-top:20px;
   
 }
 .banner {
@@ -259,7 +259,7 @@ letter-spacing: 0.3px;
 /* card section  */
 .card-container {
     gap: 40px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 .card {
   
