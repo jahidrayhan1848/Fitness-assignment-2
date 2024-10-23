@@ -59,4 +59,13 @@
   .container {
     padding: 10px;
   }
+  .footer-container {
+      padding-top: 66px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+  
+
+
+}
 }

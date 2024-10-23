@@ -26,6 +26,13 @@
 
 
 }
+a {
+      text-decoration: none;
+
+}
+li {
+    list-style: none;
+}
 .header {
   
   background: linear-gradient(180deg, #111 100%, rgba(119, 119, 119, 0.00) 100%);
@@ -58,7 +65,7 @@ line-height: 120%; /* 43.2px */
     list-style: none;
 }
 .anchor {
-    text-decoration: none;
+  
     margin-left: 40px;
     color: #FFF;
 font-family: Inter;
@@ -493,4 +500,52 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 120%; 
+}
+/* healthcare design  */
+.healthcare-container {
+    background: rgba(255, 255, 255, 0.10);
+    margin-top: 88px;
+}
+.footer-container {
+     padding-top: 66px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+}
+
+.fit h1 {
+    color: #E6533C;
+
+font-size: 70px;
+font-style: italic;
+font-weight: 800;
+line-height: 120%;
+margin-bottom: 20px;
+}
+.fit p {
+    color: rgba(255, 255, 255, 0.50);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.3px;
+}
+.fit-2 h1 {
+    color: #FFF;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+margin-bottom: 30px;
+}
+.fit-2 ul >li > a {
+color: rgba(255, 255, 255, 0.50);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+
+} 
+.fit-2 ul >li {
+    margin-bottom: 20px;
 }
