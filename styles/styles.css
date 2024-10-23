@@ -328,7 +328,7 @@ margin-bottom: 34px;
     margin-top: 88px;
     background: #000;
   
-    border: 1px solid red;
+  
   }
   .bmi-title {
     text-align: center;
@@ -357,12 +357,11 @@ letter-spacing: 0.3px;
 
   }
   .bmi {
-    border: 1px solid green;
     /* justify-content: space-between; */
     gap: 50px;
   }
   .bmi-table {
-    border: 1px solid purple;
+   
     width: 40%;
     padding: 20px;
   }
@@ -376,7 +375,7 @@ line-height: 120%;
   }
   /* bmi input part  */
   .bmi-input {
-    border: 1px solid yellow;
+   
     width: 55%;
      padding: 20px;
   }
@@ -398,6 +397,7 @@ margin-top: 14px ;
   }
   .input-field {
     margin-top: 34px;
+ background: #222;
   }
   .input-field input {
     padding: 12px 40px 12px 20px;
@@ -405,4 +405,7 @@ margin-top: 14px ;
 background: rgba(255, 255, 255, 0.10);
 height: 48px;
 margin-bottom: 10px;
+  }
+  .field input {
+    width: 495px;
   }

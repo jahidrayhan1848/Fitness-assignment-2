@@ -49,4 +49,8 @@
     width: 100%;
      padding: 20px;
   }
+  .field input {
+    width: 95px;
+  }
+
  }
