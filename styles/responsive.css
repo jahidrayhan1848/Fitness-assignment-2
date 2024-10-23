@@ -68,4 +68,11 @@
 
 
 }
+.product-container {
+    grid-template-columns: 1fr;
+   
 }
+.pro {
+    padding: 20px;
+}
+ }
